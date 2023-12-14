@@ -91,7 +91,7 @@ export default  function List() {
   return (
     <main className={styles.list}>
       <h1 className={styles.prhead}>Product List</h1>
-      <div className="pagination">
+      <div className={styles.pagination}>
         <button onClick={() => previousPage()} disabled={!canPreviousPage}>
           {"<"}
         </button>{" "}
