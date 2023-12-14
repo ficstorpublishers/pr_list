@@ -1,0 +1,10 @@
+.main {
+  margin: 20px;
+  color: wheat;
+}
+.listlink {
+  color: #61dafb !important;
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 20px;
+}
