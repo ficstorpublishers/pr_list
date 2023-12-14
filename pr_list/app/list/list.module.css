@@ -1,8 +1,23 @@
 .list {
   margin: 20px;
-  display: flex;
-  flex-direction: column;
+}
+.prhead {
   align-items: center;
-  justify-content: center;
-  height: 100%;
+  margin: 10px;
+}
+
+.prlist {
+  align-items: center;
+  margin: 10px;
+}
+
+.listitem {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+}
+.itemdesc {
+  margin-left: 20px;
 }
